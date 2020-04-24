@@ -1,0 +1,68 @@
+= Manual: Min Fula Lilla Sida
+:homepage: https://github.com/seetee/manual
+:imagesdir: ../img
+:data-uri:
+:source-highlighter: prettify
+:pagenums:
+:sectnums:
+:sectanchors:
+:sectlinks:
+:toc:
+:toclevels: 1
+:toc-placement!:
+
+image:tcstenungsund.png[TCStenungsund,150,role=right]
+
+[.lead]
+Det är inte lätt att vara nybörjare.
+Alla webbutvecklare börjar från början, och det första de producerar brukar sällan se så bra ut.
+Så varför inte se till att få det ur systemet direkt? På så sätt kan vi sedan gå vidare och skapa snyggare grejer.
+Denna uppgiften går ut på att du skall lära dig grunderna i webbutveckling, och samtidigt göra en riktigt ful liten sida.
+
+'''
+
+.Ett exempel på färdig uppgift
+[caption="Bild 1: ",link=https://raw.githubusercontent.com/seetee/docker/master/manual/img/weuweb01_-_min_fula_lilla_sida_0.png]
+image::weuweb01_-_min_fula_lilla_sida_0.png[Exempel,600]
+
+.Innehållsförteckning
+toc::[]
+
+== Förutsättningar
+Enskild uppgift.
+
+== Resurser
+* https://www.mozilla.org/sv-SE/firefox/new/[Valfri webbläsare]
+* https://notepad-plus-plus.org/[Notepad++]
+* https://www.7-zip.org/[7Zip]
+* https://htmldog.com/[HTML Dog]
+- https://htmldog.com/guides/html/beginner/[HTML Beginner]
+- https://htmldog.com/guides/css/beginner/[CSS Beginner]
+- https://htmldog.com/guides/html/intermediate/[HTML Intermediate]
+- https://htmldog.com/guides/css/intermediate/[CSS Intermediate]
+- https://htmldog.com/guides/html/advanced/[HTML Advanced]
+- https://htmldog.com/guides/css/advanced/[CSS Advanced]
+
+TIP: Tips! Om du kör Windows som OS kan mjukvarorna som nämns ovan installeras via den utmärkta tjänsten https://ninite.com/7zip-firefox-notepadplusplus/[Ninite].
+
+== Uppgiftsbeskrivning
+Du skall nu skapa din första webbsida.
+
+https://htmldog.com/[HTML Dog] innehåller tre avsnitt om HTML och tre avsnitt om CSS. Du skall läsa dessa avsnitt, i ordning, och implementera majoriteten av det du lär dig i din Fula Lilla Sida. Testa de exempel som ges, pröva att ändra värden och ordningen på instruktionerna för att bli bekant med och få förståelse för hur språken fungerar.
+
+.Använd den här filstrukturen
+[caption="Bild 2: ",link=https://raw.githubusercontent.com/seetee/docker/master/manual/img/weuweb01_-_min_fula_lilla_sida_1.png]
+image::weuweb01_-_min_fula_lilla_sida_1.png[Filstruktur,250,role=right]
+
+Börja med att skapa en ny https://sv.wikipedia.org/wiki/Katalog_(datorteknik)[katalog] på valfri plats i https://sv.wikipedia.org/wiki/Filsystem[filsystemet]. Skapa i denna en katalog som heter bilder, en fil som heter _index.html_ och en fil som heter _main.css_. Lägg sedan bilder du använder under projektets gång i underkatalogen _bilder_. Se Bild 2 för ett exempel av hur det kan se ut.
+
+Den resulterande sidan får med fördel vara riktigt ful.
+
+== Förväntat resultat
+I slutet av den här uppgiften förväntas du ha skapat en ful liten sida bestående av minst ett html-dokument och minst ett css-dokument. Sidan skall innehålla alla de moment som återfinns i HTML- och CSS-delarna på HTML Dog.
+
+==== Vilka filer?
+Skapa ett 7Zip-arkiv av din arbetskatalog.
+
+==== Var skall de lämnas in?
+I inlämningskatalogen i Webbutveckling 1-rummet i It's.
