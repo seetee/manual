@@ -15,7 +15,7 @@ image:tcstenungsund.png[TCStenungsund,150,role=right]
 
 [.lead]
 Det är inte lätt att vara nybörjare.
-Alla webbutvecklare börjar från början, och det första de producerar brukar sällan se så bra ut.
+Alla webbutvecklare börjar från början, och det första de producerar brukar sällan se bra ut.
 Så varför inte se till att få det ur systemet direkt? På så sätt kan vi sedan gå vidare och skapa snyggare grejer.
 Denna uppgiften går ut på att du skall lära dig grunderna i webbutveckling, och samtidigt göra en riktigt ful liten sida.
 
