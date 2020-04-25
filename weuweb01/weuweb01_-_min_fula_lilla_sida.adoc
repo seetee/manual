@@ -34,8 +34,12 @@ Denna uppgiften går ut på att du skall lära dig grunderna i webbutveckling, o
 [caption="Bild 1: ",link=https://raw.githubusercontent.com/seetee/docker/master/manual/img/weuweb01_-_min_fula_lilla_sida_0.png]
 image::weuweb01_-_min_fula_lilla_sida_0.png[Exempel,600]
 
+'''
+
 .Innehållsförteckning
 toc::[]
+
+'''
 
 == Förutsättningar
 Enskild uppgift.
