@@ -49,12 +49,9 @@ Enskild uppgift.
 * https://notepad-plus-plus.org/[Notepad++]
 * https://www.7-zip.org/[7Zip]
 * https://htmldog.com/[HTML Dog]
-- https://htmldog.com/guides/html/beginner/[HTML Beginner]
-- https://htmldog.com/guides/css/beginner/[CSS Beginner]
-- https://htmldog.com/guides/html/intermediate/[HTML Intermediate]
-- https://htmldog.com/guides/css/intermediate/[CSS Intermediate]
-- https://htmldog.com/guides/html/advanced/[HTML Advanced]
-- https://htmldog.com/guides/css/advanced/[CSS Advanced]
+- https://htmldog.com/guides/html/beginner/[HTML Beginner] och https://htmldog.com/guides/css/beginner/[CSS Beginner]
+- https://htmldog.com/guides/html/intermediate/[HTML Intermediate] och https://htmldog.com/guides/css/intermediate/[CSS Intermediate]
+- https://htmldog.com/guides/html/advanced/[HTML Advanced] och https://htmldog.com/guides/css/advanced/[CSS Advanced]
 
 TIP: Tips! Om du kör Windows som OS kan mjukvarorna som nämns ovan installeras via den utmärkta tjänsten https://ninite.com/7zip-firefox-notepadplusplus/[Ninite].
 
