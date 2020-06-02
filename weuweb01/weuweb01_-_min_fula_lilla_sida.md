@@ -1,13 +1,12 @@
-# Manual: Min Fula Lilla Sida
+<header style="float:right;">
+  <img src="../img/tcstenungsund.png" style="width:5em;" />
+</header>
+# Webbutveckling 1: Min Fula Lilla Sida
 
-![TCStenungsund](../img/tcstenungsund.png)
-
-Det är inte lätt att vara nybörjare.
+*Det är inte lätt att vara nybörjare.
 Alla webbutvecklare börjar från början, och det första de producerar brukar sällan se bra ut.
 Så varför inte se till att få det ur systemet direkt? På så sätt kan vi sedan gå vidare och skapa snyggare grejer.
-Denna uppgiften går ut på att du skall lära dig grunderna i webbutveckling, och samtidigt göra en riktigt ful liten sida.
-
----
+Denna uppgiften går ut på att du skall lära dig grunderna i webbutveckling, och samtidigt göra en riktigt ful liten sida.*
 
 ![Ett exempel på färdig uppgift](../img/weuweb01_-_min_fula_lilla_sida_0.png)
 
@@ -26,7 +25,7 @@ Enskild uppgift.
   - [HTML Intermediate](https://htmldog.com/guides/html/intermediate/) och [CSS Intermediate](https://htmldog.com/guides/css/intermediate/)
   - [HTML Advanced](https://htmldog.com/guides/html/advanced/) och [CSS Advanced](https://htmldog.com/guides/css/advanced/)
 
-> Tips! Om du kör Windows som OS kan mjukvarorna som nämns ovan installeras via den utmärkta tjänsten [Ninite](https://ninite.com/7zip-firefox-notepadplusplus/).
+> Tips! Om du kör Windows som OS kan mjukvarorna som nämns ovan installeras via den utmärkta tjänsten [Ninite](https://ninite.com/7zip-firefox-notepadplusplus/). Använder du Linux så finns de tillgängliga i din vanliga pakethanterare.
 
 ## Uppgiftsbeskrivning
 
