@@ -1,5 +1,10 @@
 # Manuals for education
 
+![GitHub last commit](https://img.shields.io/github/last-commit/seetee/ansible_playbooks)
+![GitHub repo size](https://img.shields.io/github/repo-size/seetee/ansible_playbooks)
+![GitHub release](https://img.shields.io/github/v/release/seetee/ansible_playbooks)
+![GitHub contributors](https://img.shields.io/github/contributors/seetee/ansible_playbooks)
+
 This is a manuals that I use in IT-courses.
 
 ## Contact
