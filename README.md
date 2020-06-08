@@ -8,6 +8,15 @@
 
 This is a manuals that I use in IT-courses.
 
+## Source
+
+The underlaying technology for this to work. Personally I also recommend the [Atom](https://atom.io/) text editor, but that is subject to your own taste, of course.
+
+* [The Markdown Guide](https://www.markdownguide.org/)
+* [Pandoc - a universal document converter](https://pandoc.org/)
+* [GitHub Actions](https://github.com/features/actions)
+* [Using pandoc with GitHub Actions](https://github.com/pandoc/pandoc-action-example)
+
 ## Contact
 
 If you want to contact me you can reach me on Twitter [@alltinomit](https://twitter.com/alltinomit).
