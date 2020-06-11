@@ -1,5 +1,5 @@
 <header style="float:right;">
-  <img src="../resources/img/tcstenungsund.png" style="width:5em;" />
+  <img src="../../resources/img/tcstenungsund.png" style="width:5em;" />
 </header>
 
 # Webbutveckling 1: Min Fula Lilla Sida
@@ -9,7 +9,7 @@ Alla webbutvecklare börjar från början, och det första de producerar brukar 
 Så varför inte se till att få det ur systemet direkt? På så sätt kan vi sedan gå vidare och skapa snyggare grejer.
 Denna uppgiften går ut på att du skall lära dig grunderna i webbutveckling, och samtidigt göra en riktigt ful liten sida.*
 
-![Ett exempel på färdig uppgift](./img/weuweb01_-_min_fula_lilla_sida_0.png)
+![Ett exempel på färdig uppgift](../img/weuweb01_-_min_fula_lilla_sida_0.png)
 
 ---
 
@@ -34,7 +34,7 @@ Du skall nu skapa din första webbsida.
 
 [HTML Dog](https://htmldog.com/) innehåller tre avsnitt om HTML och tre avsnitt om CSS. Du skall läsa dessa avsnitt, i ordning, och implementera majoriteten av det du lär dig i din Fula Lilla Sida. Testa de exempel som ges, pröva att ändra värden och ordningen på instruktionerna för att bli bekant med och få förståelse för hur språken fungerar.
 
-![Använd den här filstrukturen](./img/weuweb01_-_min_fula_lilla_sida_1.png)
+![Använd den här filstrukturen](../img/weuweb01_-_min_fula_lilla_sida_1.png)
 
 Börja med att skapa en ny [katalog](https://sv.wikipedia.org/wiki/Katalog_(datorteknik)) på valfri plats i [filsystemet](https://sv.wikipedia.org/wiki/Filsystem). Skapa i denna en katalog som heter __bilder__, en fil som heter __index.html__ och en fil som heter __main.css__. Lägg sedan bilder du använder under projektets gång i underkatalogen bilder. Se Bild 2 för ett exempel av hur det kan se ut.
 
