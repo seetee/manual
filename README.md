@@ -6,7 +6,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/seetee/manual)
 
 
-This is a manuals that I use in IT-courses.
+This is an experiment with the goal of creating a documentation standard for the IT-education at @TCStenungsund.
 
 ## Source
 
