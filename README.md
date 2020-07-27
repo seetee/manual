@@ -6,7 +6,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/seetee/manual)
 
 
-This is an experiment with the goal of creating a documentation standard for the IT-education at @TCStenungsund.
+This is an experiment with the goal of creating a documentation standard for the IT-education at @TCStenungsund. Hopefully it will work with Github Actions and other fun stuff.
 
 ## Source
 
