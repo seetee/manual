@@ -1,11 +1,28 @@
-- name: PDF Paper Generator
-  uses: rseng/pdf-generator@0.0.3
-  with:        
-   # The markdown file to render, path is relative to repository
-   paper_markdown: README.md
+# .github/workflows/convert-to-pdf.yml
 
-   # The paper pdf to save
-   paper_outfile: minimal.pdf
+name: Docs to PDF
+# This workflow is triggered on pushes to the repository.
+on:
+  push:
+    branches:
+      - master
 
-   # One of "minimal" or "pdf" for the template with image, etc.
-   pdf_type: minimal
+jobs:
+  converttopdf:
+    name: Build PDF
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_dir: weuweb01/src
+          output_dir: weuweb01
+          images_dir: weuweb01/img
+          # for example <img src="./images/file-name.png">
+          images_path: ./img
+          # Default is true, can set to false to only get PDF files
+          build_html: false
+      - uses: actions/upload-artifact@v1
+        with:
+          name: docs
+          path: pdfs
