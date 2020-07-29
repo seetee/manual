@@ -1,77 +1,32 @@
-name: generate-pdf-artifacts
+name: Convert PDF to Markdown
 
 on:
-  pull_request: []
   push:
-    branches:
-     - master
+    paths:
+    - '**.md'
 
 jobs:
-  GeneratePdfArtifacts:
-    name: Generate PDFs
+  convert_md: 
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-
-        # See https://github.com/rseng/pdf-generator for release
-      - name: Generate Full PDF Template      
-        uses: rseng/pdf-generator@master
-        with:        
-
-          # The latex template to use (defaults to one here)
-          latex_template: templates/latex.template.joss
-
-          # The markdown file to render,path is relative to repository
-          # make sure that images are also relative to the root in the file
-          paper_markdown: paper/paper.md
-
-          # The paper pdf to save
-          paper_outfile: paper.pdf
-
-          # Bibliography file, if existing
-          bibtex: paper/paper.bib
-
-          # A path to a png logo file
-          png_logo: paper/sorse.png
-
-          # One of "minimal" or "pdf" for the template with image, etc.
-          pdf_type: pdf
-
-          # A variables file to use
-          variables_file: templates/joss-variables.txt
- 
-          # A mapping file to use
-          mapping_file: templates/joss-mapping.txt
-
-      - name: Generate Minimal PDF
- 
-        # Important! Update to release https://github.com/rseng/rse-action/releases
-        uses: ./
-        with:        
-
-          # The markdown file to render,path is relative to repository
-          paper_markdown: paper/paper.md
-
-          # The paper pdf to save
-          paper_outfile: minimal.pdf
-
-          # Bibliography file, if existing
-          bibtex: paper/paper.bib
-
-          # One of "minimal" or "pdf" for the template with image, etc.
-          pdf_type: minimal
-
-      - name: Upload minimal pdf as artifact
-        uses: actions/upload-artifact@v2-preview
-
-        # Path is relative to GITHUB_WORKSPACE
-        with:
-          name: minimal-pdf
-          path: minimal.pdf
-
-      - name: Upload full templated pdf as artifact
-        uses: actions/upload-artifact@v2-preview
-        with:
-          name: full-pdf
-          path: paper.pdf
+    # We must checkout the latest version of the code to get a copy of all .md files
+    - name: Checkout Code
+      uses: actions/checkout@v2.0.0
+      with:
+        fetch-depth: 1
+    - name: Create .pdfs
+      uses: scottypate/md-to-pdf@v0.1.1
+      env: {
+        # Use this parameter to determine where the generated .pdf(s) will be stored.
+        PDF_DIR: './'
+      }
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v1.6.1
+      env:
+        # The token is built in to actions. No config required.
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        COMMIT_MESSAGE: Add .pdf files.
+        PULL_REQUEST_TITLE: Add .pdf files.
+        PULL_REQUEST_BRANCH: pdf-add
+        PULL_REQUEST_BODY: :wave: Here are the .pdf files you requested.
+        PULL_REQUEST_REVIEWERS: scottypate
