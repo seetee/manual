@@ -20,9 +20,11 @@ Gruppuppgift för 3-4 elever.
 
 Börja med att bestämma vad er sida skall handla om. Detta är er primära CTA (Call To Action), och kan även knytas till sidans Bussiness Objective.
 
-> Tips! Bra exempel kan vara: "Så gör du din dator snabbare!", "Hur kålsoppa kan förbättra din hälsa" eller "Ta tag i din privatekonomi"
+> Tips! Bra exempel kan vara: "Så gör du din dator snabbare!", "Hur kålsoppa kan förbättra din hälsa", "Surfa säkert!" eller "Ta tag i din privatekonomi"
 
-När ni beslutat om ett ämne att skriva om börjar förarbetet. Titta på sidor på nätet som behandlar liknande ämnen, notera hur de använder färger och typsnitt för att förmedla sitt budskap. Använd er av verktyg som t.ex [Coolors](https://coolors.co/) och [Google Fonts](https://fonts.google.com/) för att hitta ett utseende ni är nöjda med. Skapa både ett antal wireframes och en moodboard. Digitalt eller fysiskt spelar ingen roll.
+Sedan tar ni fram 3-4 tydliga call to actions. Dessa använder ni sedan för att bygga upp undersidor. Skapa också en undersida som heter “Om oss”, där ni presenterar er och förklarar att detta är ett projekt ni gör i Webbutveckling 1. Nu har ni en webbplats med ett tydligt tema, och undersidor med klara målsättningar.
+
+Titta på sidor på nätet som behandlar liknande ämnen, notera hur de använder färger och typsnitt för att förmedla sitt budskap. Använd er av verktyg som t.ex [Coolors](https://coolors.co/) och [Google Fonts](https://fonts.google.com/) för att hitta ett utseende ni är nöjda med. Skapa både ett antal wireframes och en moodboard. Digitalt eller fysiskt spelar ingen roll.
 
 Skall er sida ha något slags anknytning till sociala medier? Hur skall ni integrera det? Hur skall sidbesökarna kunna komma i kontakt med er? Skall ni ha någon kommentarsfunktion på sidan?
 
@@ -30,7 +32,9 @@ I nästa steg letar ni reda på ett tema som motsvarar er wireframe. Installera 
 
 Lägg till innehållet.
 
-Allt material ni använder på sidan skall vara upphovsrättsligt godkänt. Med andra ord måste ni antingen köpa bilder, eller följa reglerna för Creative Commons. Detsamma gäller de texter ni kopierar. Då ni inte förväntas fylla sidan med egna texter får ni gärna hämta dem från t.ex Wikipedia.
+Istället för att skriva en massa text själva, använder ni nu material från Wikipedia för att fylla ut sidorna lagom mycket. Kom ihåg att det är tråkigt att läsa mycket text på nätet.
+
+Allt material ni använder på sidan skall vara upphovsrättsligt godkänt. Med andra ord måste ni antingen köpa bilder, eller följa reglerna för Creative Commons. Detsamma gäller de texter ni kopierar.
 
 Lägg till moduler. Se efter vilka moduler som passar just er sida, lägg till och konfigurera dem.
 
