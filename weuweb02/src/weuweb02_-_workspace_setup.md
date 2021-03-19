@@ -4,7 +4,7 @@
 
 # Webbutveckling 2: Workspace setup
 
-*Oavsett om du arbetar med webbutveckling eller annan mjukvaruutveckling så är det viktigt att du har en stabil utvecklingsmiljö. I detta fallet vill vi ha CMSen Drupal. Docker fixar både en LAMP-stack och Drupal-installation genom containervirtualisering.*
+*Oavsett om du arbetar med webbutveckling eller annan mjukvaruutveckling så är det viktigt att du har en stabil utvecklingsmiljö. I detta fallet vill vi ha CMSen Drupal. Mjukvaran Docker fixar både en LAMP-stack och Drupal-installation genom containervirtualisering.*
 
 ## Förutsättningar
 
@@ -14,14 +14,18 @@ Individuell uppgift.
 * [VirtualBox](https://www.virtualbox.org/)
 * [WSL 2 (Ubuntu 20.04 LTS)](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 * [Docker Desktop for Windows](https://docs.docker.com/docker-for-windows/install-windows-home/)
-* [Docker Engine for Linux](https://docs.docker.com/engine/install/ubuntu/) och Docker Compose](https://docs.docker.com/compose/install/)
+* [Docker Engine for Linux](https://docs.docker.com/engine/install/ubuntu/) och [Docker Compose](https://docs.docker.com/compose/install/)
 * [docker-compose.yml (version 1.0)](https://raw.githubusercontent.com/seetee/docker/master/drupal/docker-compose.yml)
 
 > Tips! Börja med att skapa en ny katalog till varje utvecklingsmiljö, och lägg den någonstans där den är lätt att navigera till. Detta är centret i din utveckling!
 
 ## Uppgiftsbeskrivning
 
-Installera VirtualBox och Docker för ditt operativ system. Ladda hem docker-compose.yml-filen som innehåller "receptet" för hur din utvecklingsmiljö skall se ut.
+Installera VirtualBox och Docker för ditt operativsystem. Ladda hem docker-compose.yml-filen som innehåller "receptet" för hur din utvecklingsmiljö skall se ut. Slutför sedan installationen av Drupal i din webbläsare utifrån uppgifterna i docker-compose.yml-filen.
+
+I filen docker-compose.yml finns information om vilken lokal port din virtuella container kommer finnas på. Där finns även all information du behöver för att konfigurera databasen under det sista momentet i installationen av Drupal. 
+
+Följ instruktionen i flödesschemat nedan så du inte missar något steg eller gör något i fel ordning.
 
 <div style="page-break-after: always;">&nbsp;</div>
 
@@ -32,11 +36,11 @@ Installera VirtualBox och Docker för ditt operativ system. Ladda hem docker-com
 
 ## Förväntat resultat
 
-
+En utvecklingsmiljö där du har en installerad instans av Drupal som körs i en egen docker-container.
 
 ### Vilka filer?
 
-
+Ett screenshot av din färdiga Drupalinstallation.
 
 ### Var skall de lämnas in?
 
