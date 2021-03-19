@@ -23,9 +23,11 @@ Individuell uppgift.
 
 Installera VirtualBox och Docker för ditt operativsystem. Ladda hem docker-compose.yml-filen som innehåller "receptet" för hur din utvecklingsmiljö skall se ut. Slutför sedan installationen av Drupal i din webbläsare utifrån uppgifterna i docker-compose.yml-filen.
 
-I filen docker-compose.yml finns information om vilken lokal port din virtuella container kommer finnas på. Där finns även all information du behöver för att konfigurera databasen under det sista momentet i installationen av Drupal. 
+I filen docker-compose.yml finns information om vilken lokal port din virtuella container kommer finnas på. Där finns även all information du behöver för att konfigurera databasen under det sista momentet i installationen av Drupal. När det gäller inställningar som inte nämns i instruktionen så kan du lämna dem som de är, eller hitta på egna kreativa alternativ.
 
 Följ instruktionen i flödesschemat nedan så du inte missar något steg eller gör något i fel ordning.
+
+Skapa nu en article och ett block.
 
 <div style="page-break-after: always;">&nbsp;</div>
 
@@ -40,7 +42,7 @@ En utvecklingsmiljö där du har en installerad instans av Drupal som körs i en
 
 ### Vilka filer?
 
-Ett screenshot av din färdiga Drupalinstallation.
+Ett screenshot av din färdiga Drupalinstallation, där man ser ditt block och din article.
 
 ### Var skall de lämnas in?
 

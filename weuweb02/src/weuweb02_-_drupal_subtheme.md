@@ -2,51 +2,37 @@
   <img src="../../resources/img/tcstenungsund.png" style="width:5em;" />
 </header>
 
-# Webbutveckling 1: Wordpress for Dummies
+# Webbutveckling 2: Drupal subtheme
 
-*I detta grupparbete är målsättningen att ni skall lära er samarbete och bygga en enkel sida med CMSen Wordpress som grund.*
+*Med hjälp av kunskaper du redan har, som exempelvis CSS, Bootstrap, Docker och Drupal, skall du nu skapa ditt första subhteme till Drupal.*
 
 ## Förutsättningar
 
-Gruppuppgift för 3-4 elever.
+Enskild uppgift.
 
 ### Resurser
-* [Wordpress.com](https://www.wordpress.com/)
-* [Wordpress.org](https://www.wordpress.org/)
 
-> Tips! På Wordpress.com kan man visserligen sätta upp ett gratiskonto, men det går också att installera Wordpress lokalt, och få massor av fler möjligheter.
+> Tips!
 
 ## Uppgiftsbeskrivning
 
-Börja med att bestämma vad er sida skall handla om. Detta är er primära CTA (Call To Action), och kan även knytas till sidans Bussiness Objective.
+Hur skapar man teman i Drupal?
 
-> Tips! Bra exempel kan vara: "Så gör du din dator snabbare!", "Hur kålsoppa kan förbättra din hälsa", "Surfa säkert!" eller "Ta tag i din privatekonomi"
+Genomgång av hur ett tema i Drupal 8 är uppbyggt, där vi berör begrepp som [YAML](https://en.wikipedia.org/wiki/YAML) och [Twig](https://en.wikipedia.org/wiki/Twig_(template_engine)). Visar en dålig video ([How to Convert an HTML Template to a Drupal 8 Theme](https://youtu.be/xdifbN3y5hU)) som beskriver hur man bygger ett tema från grunden, sedan talar vi om hur man bygger ett sub-theme enligt samma metod.
 
-Sedan tar ni fram 3-4 tydliga call to actions. Dessa använder ni sedan för att bygga upp undersidor. Skapa också en undersida som heter “Om oss”, där ni presenterar er och förklarar att detta är ett projekt ni gör i Webbutveckling 1. Nu har ni en webbplats med ett tydligt tema, och undersidor med klara målsättningar.
+I det stora projektet skall ni använda Bootstrap som huvudtema, och skapa ett eget subtheme för det. Här är [en enkel guide](https://www.ostraining.com/blog/drupal/create-a-drupal-8-bootstrap-subtheme-using-cdn/) till hur man skapar ett subtheme! Det finns även [mer utdragna instruktioner](https://youtu.be/1VYaFRMER8U), för att skapa ett subtheme. Det finns också flera olika sätt att göra det på.
 
-Titta på sidor på nätet som behandlar liknande ämnen, notera hur de använder färger och typsnitt för att förmedla sitt budskap. Använd er av verktyg som t.ex [Coolors](https://coolors.co/) och [Google Fonts](https://fonts.google.com/) för att hitta ett utseende ni är nöjda med. Skapa både ett antal wireframes och en moodboard. Digitalt eller fysiskt spelar ingen roll.
-
-Skall er sida ha något slags anknytning till sociala medier? Hur skall ni integrera det? Hur skall sidbesökarna kunna komma i kontakt med er? Skall ni ha någon kommentarsfunktion på sidan?
-
-I nästa steg letar ni reda på ett tema som motsvarar er wireframe. Installera det och börja anpassa dess färger och typsnitt utifrån er dokumentation.
-
-Lägg till innehållet.
-
-Istället för att skriva en massa text själva, använder ni nu material från Wikipedia för att fylla ut sidorna lagom mycket. Kom ihåg att det är tråkigt att läsa mycket text på nätet.
-
-Allt material ni använder på sidan skall vara upphovsrättsligt godkänt. Med andra ord måste ni antingen köpa bilder, eller följa reglerna för Creative Commons. Detsamma gäller de texter ni kopierar.
-
-Lägg till moduler. Se efter vilka moduler som passar just er sida, lägg till och konfigurera dem.
-
-<div style="page-break-after: always;">&nbsp;</div>
+Bootstrap har egna readme-filer, och Drupal.org har självklart utmärkt [dokumentation av teman](https://www.drupal.org/docs/8/theming) och installationer.
 
 ## Förväntat resultat
 
-En färdig komplett sida med Wordpress som grund, samt dokumentation för densamma. Dokumentationen skall innehålla färgschema, val av fonter, en moodboard och minst en wireframe. Den skall också inkludera en reflektion över hur ert resultat skiljer sig från hur ni först planerade, och varför. Den bör lista era business objectives och alla CTA ni använder.
+Ett komplett, snyggt och funktionellt subtheme till Drupal. Det skall gå att installera på en annan Drupal-instans, och inte direkt vara igenkänningsbart som Drupal.
 
 ### Vilka filer?
 
-En PDF innehållande dokumentationen för sidan.
+En 7z-fil med din kompletta subtheme-katalog så som den sett ut om den tankats ned från drupal.org.
+
+Ett screenshot av förstasidan på din site. 
 
 ### Var skall de lämnas in?
 
