@@ -11,18 +11,33 @@
 Enskild uppgift.
 
 ### Resurser
+* [Drupal 8 Beginner](https://www.youtube.com/playlist?list=PLpVC00PAQQxHzlDeQvCNDKkyKRV1G3_vT)
+* ["How to Create a Sub Theme in Drupal 8 or 9"](https://youtu.be/hPXUn_D2-lE)
+* ["How to Convert an HTML Template to a Drupal 8 Theme"](https://youtu.be/xdifbN3y5hU)
+* [Drupal 8 Bootstrap 3 - Sub-Theming - Using the Starterkit](https://drupal-bootstrap.org/api/bootstrap/docs%21Sub-Theming.md/group/sub_theming/8.x-3.x)
+* [Drupal 8/9 Creating a custom Barrio (Bootstrap 4) sub-theme manually](https://www.drupal.org/docs/8/themes/barrio-bootstrap-4-drupal-89-theme/bootstrap-barrio-installation/creating-a-custom#s-create-manually)
 
-> Tips!
+> Tips! Stabilt just nu (2021 Q1) är Drupal 8 och Bootstrap 4. Men nästa version av bägge projekten är mycket nära produktionsfärdiga. Undersök dem gärna själv!
 
 ## Uppgiftsbeskrivning
 
-Hur skapar man teman i Drupal?
+Välj först vilket Bootstrap-baserat tema för Drupal du vill använda. De fungerar på väldigt liknande sätt, men Bootstrap skiljer sig en hel del åt mellan version 3, 4 och 5. Så välj det bastema du är mest van vid. För Bootstrap 3 finns temat "Bootstrap" och för Bootstrap 4 finns temat "Barrio". Det går bra att välja ett annat Bootstrap-tema om det blivit stabilt.
 
-Genomgång av hur ett tema i Drupal 8 är uppbyggt, där vi berör begrepp som [YAML](https://en.wikipedia.org/wiki/YAML) och [Twig](https://en.wikipedia.org/wiki/Twig_(template_engine)). Visar en dålig video ([How to Convert an HTML Template to a Drupal 8 Theme](https://youtu.be/xdifbN3y5hU)) som beskriver hur man bygger ett tema från grunden, sedan talar vi om hur man bygger ett sub-theme enligt samma metod.
+Installera Bootstrap.
 
-I det stora projektet skall ni använda Bootstrap som huvudtema, och skapa ett eget subtheme för det. Här är [en enkel guide](https://www.ostraining.com/blog/drupal/create-a-drupal-8-bootstrap-subtheme-using-cdn/) till hur man skapar ett subtheme! Det finns även [mer utdragna instruktioner](https://youtu.be/1VYaFRMER8U), för att skapa ett subtheme. Det finns också flera olika sätt att göra det på.
+Sök upp informationen för hur du skapar ett subhteme för det tema du valt (instruktionerna för Bootstrap samt Barrio finns länkade i resurslistan ovan). Bootstrap har egna readme-filer, och Drupal.org har självklart utmärkt [dokumentation av teman](https://www.drupal.org/docs/8/theming) och installationer.
 
-Bootstrap har egna readme-filer, och Drupal.org har självklart utmärkt [dokumentation av teman](https://www.drupal.org/docs/8/theming) och installationer.
+Skapa ett subtheme till Bootstrap.
+
+Följ de officiella instruktionerna och skapa ett eget subtheme till Bootstrap för Drupal. Inkludera bakgrundsbilder/mönster, subtila strukturer, typsnitt, färger och allt annat du lärt dig när det gäller att bygga en webbsida.
+
+För exempeldata använd modulen [Devel](https://www.drupal.org/project/devel).
+
+#### Överkurs
+
+Siktar du på högre betyg, skapa en egen template-fil för förstasidan av din site. (Detta kan innebära att du kommer i kontakt med både [YAML](https://en.wikipedia.org/wiki/YAML) och [Twig](https://en.wikipedia.org/wiki/Twig_(template_engine))).
+
+<div style="page-break-after: always;">&nbsp;</div>
 
 ## Förväntat resultat
 
@@ -32,7 +47,7 @@ Ett komplett, snyggt och funktionellt subtheme till Drupal. Det skall gå att in
 
 En 7z-fil med din kompletta subtheme-katalog så som den sett ut om den tankats ned från drupal.org.
 
-Ett screenshot av förstasidan på din site. 
+Ett screenshot av förstasidan på din site.
 
 ### Var skall de lämnas in?
 
