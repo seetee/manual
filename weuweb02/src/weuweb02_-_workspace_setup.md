@@ -10,6 +10,8 @@
 
 Individuell uppgift.
 
+I denna uppgift krävs det att du kan läsa, förstå och följa officiella instruktioner för installation och konfigurering av mjukvara.
+
 ### Resurser
 * [VirtualBox](https://www.virtualbox.org/)
 * [WSL 2 (Ubuntu 20.04 LTS)](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
@@ -27,7 +29,7 @@ I filen docker-compose.yml finns information om vilken lokal port din virtuella 
 
 Följ instruktionen i flödesschemat nedan så du inte missar något steg eller gör något i fel ordning.
 
-Skapa nu en article och ett block.
+Skapa nu en article och ett block. Publicera din article till förstasidan, och lägg in blocket på förstasidan. Dessa kan innehålla valfri kreativ copy.
 
 <div style="page-break-after: always;">&nbsp;</div>
 
@@ -40,9 +42,11 @@ Skapa nu en article och ett block.
 
 En utvecklingsmiljö där du har en installerad instans av Drupal som körs i en egen docker-container.
 
+> Tips! Varje gång du startar ett nytt projekt, se till att du byter namn på alla containrar så de har unika namn, samt ändrar vilka portar ditt projekt använder.
+
 ### Vilka filer?
 
-Ett screenshot av din färdiga Drupalinstallation, där man ser ditt block och din article.
+Ett screenshot av förstasidan av din färdiga Drupalinstallation, där man ser ditt block och din article.
 
 ### Var skall de lämnas in?
 
