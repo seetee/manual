@@ -27,13 +27,15 @@ Installera VirtualBox och Docker för ditt operativsystem. Ladda hem docker-comp
 
 I filen docker-compose.yml finns information om vilken lokal port din virtuella container kommer finnas på. Där finns även all information du behöver för att konfigurera databasen under det sista momentet i installationen av Drupal. När det gäller inställningar som inte nämns i instruktionen så kan du lämna dem som de är, eller hitta på egna kreativa alternativ.
 
+> Tips! Varje gång du startar ett nytt projekt, redigera docker-compose.yml så alla containernamn och portar är unika för din host.
+
 Följ instruktionen i flödesschemat nedan så du inte missar något steg eller gör något i fel ordning.
 
-Skapa nu en article och ett block. Publicera din article till förstasidan, och lägg in blocket på förstasidan. Dessa kan innehålla valfri kreativ copy.
+När installationen är färdig, skapa en article och ett block. Publicera din article till förstasidan, och lägg in blocket på förstasidan. Dessa kan innehålla valfri kreativ copy.
 
 <div style="page-break-after: always;">&nbsp;</div>
 
-![Flödesschema över installation av Docker i olika OS](https://files.itslearning.com/data/3293/400701/docker_1.0.png)
+![Flödesschema över installation av Docker i olika OS](../img/docker_2.0.png)
 
 <div style="page-break-after: always;">&nbsp;</div>
 
@@ -41,8 +43,6 @@ Skapa nu en article och ett block. Publicera din article till förstasidan, och 
 ## Förväntat resultat
 
 En utvecklingsmiljö där du har en installerad instans av Drupal som körs i en egen docker-container.
-
-> Tips! Varje gång du startar ett nytt projekt, se till att du byter namn på alla containrar så de har unika namn, samt ändrar vilka portar ditt projekt använder.
 
 ### Vilka filer?
 
