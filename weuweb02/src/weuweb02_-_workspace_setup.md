@@ -17,7 +17,7 @@ I denna uppgift krävs det att du kan läsa, förstå och följa officiella inst
 * [WSL 2 (Ubuntu 20.04 LTS)](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 * [Docker Desktop for Windows](https://docs.docker.com/docker-for-windows/install-windows-home/)
 * [Docker Engine for Linux](https://docs.docker.com/engine/install/ubuntu/) och [Docker Compose](https://docs.docker.com/compose/install/)
-* [docker-compose.yml (version 1.0)](https://raw.githubusercontent.com/seetee/docker/master/drupal/docker-compose.yml)
+* [docker-compose.yml (version 2.0)](https://raw.githubusercontent.com/seetee/docker/version2.0/drupal/docker-compose.yml)
 
 > Tips! Börja med att skapa en ny katalog till varje utvecklingsmiljö, och lägg den någonstans där den är lätt att navigera till. Detta är centret i din utveckling!
 
