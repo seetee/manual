@@ -6,8 +6,9 @@ on:
       - master
     # Paths can be used to only trigger actions when you have edited certain files, such as a file within the /docs directory
     paths:
+      - 'weuweb01/src/**.md'
       - 'weuweb02/src/**.md'
-      - 'docs/images/**'
+      - 'weuweb03/src/**.md'
 
 jobs:
   converttopdf:
