@@ -1,5 +1,5 @@
 name: Convert Markdown 2 PDF
-/home/runner/work/manual/manual/pdfs
+
 on:
   push:
     branches:
