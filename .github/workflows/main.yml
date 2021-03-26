@@ -1,5 +1,5 @@
 name: Convert Markdown 2 PDF
-
+/home/runner/work/manual/manual/pdfs
 on:
   push:
     branches:
@@ -27,4 +27,4 @@ jobs:
       - uses: actions/upload-artifact@v1
         with:
           name: docs
-          path: pdfs
+          path: weuweb02
