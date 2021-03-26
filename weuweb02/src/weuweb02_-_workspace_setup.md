@@ -29,7 +29,7 @@ I filen docker-compose.yml finns information om vilken lokal port din virtuella 
 
 > Tips! Varje gång du startar ett nytt projekt, redigera docker-compose.yml så alla containernamn och portar är unika på din host.
 
-Följ instruktionen i flödesschemat nedan så du inte missar något steg eller gör något i fel ordning._
+Följ instruktionen i flödesschemat nedan så du inte missar något steg eller gör något i fel ordning. Får du felmeddelanden, läs vad de säger och hur de föreslår att du löser problemet. Gå sedan tillbaka i instruktionerna så du kan vara 100% säker att du inte hoppat över något steg, eller råkat göra något i fel ordning.
 
 --
 
