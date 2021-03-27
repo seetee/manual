@@ -35,8 +35,6 @@ I filen docker-compose.yml finns information om vilken lokal port din virtuella 
 
 Följ instruktionen i flödesschemat nedan så du inte missar något steg eller gör något i fel ordning. Får du felmeddelanden, läs vad de säger och hur de föreslår att du löser problemet. Gå sedan tillbaka i instruktionerna så du kan vara 100% säker att du inte hoppat över något steg, eller råkat göra något i fel ordning.
 
----
-
 När installationen är färdig, skapa en article och ett block. Publicera din article till förstasidan, och lägg in blocket på förstasidan. Dessa kan innehålla valfri kreativ copy.
 
 <div style="page-break-after: always;">&nbsp;</div>
