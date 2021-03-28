@@ -39,7 +39,7 @@ När installationen är färdig, skapa en article och ett block. Publicera din a
 
 <div style="page-break-after: always;">&nbsp;</div>
 
-![Flödesschema över installation av Docker i olika OS](weuweb02/img/docker_2.0.png)
+![Flödesschema över installation av Docker i olika OS](img/docker_2.0.png)
 
 <div style="page-break-after: always;">&nbsp;</div>
 
