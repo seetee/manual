@@ -27,7 +27,7 @@ Du förutsätts kunna navigera och köra kommandon på kommandoraden, installera
 
 Målet med övningen är att ha en fungerande mjukvaruinfrastruktur där du kan sätta upp en utvecklingsmiljö med hjälp av docker-compose. För att kunna använda docker-compose behöver du tre mjukvaror: 1 hypervizor att skapa containrar i, en linux-miljö (riktig eller virtualiserad) samt Docker. Efter det skall du ladda hem docker-compose.yml-filen som innehåller "receptet" för hur din utvecklingsmiljö skall se ut. Slutför sedan installationen av Drupal i din webbläsare utifrån uppgifterna i docker-compose.yml-filen.
 
-Du kommer inte behöva använda vare sig VirtualBox, Ubuntu eller Docker Desktop i den här övningen. Efter installationen räcker det att du kör CLI-kommandon i PowerShell för att aktivera din docker-compose.yml och köra dina dockercontainers.
+Du kommer inte behöva manuellt använda vare sig VirtualBox, Ubuntu eller Docker Desktop i den här övningen. Efter installationen räcker det att du kör CLI-kommandon i PowerShell för att aktivera din docker-compose.yml och köra dina dockercontainers.
 
 I filen docker-compose.yml finns information om vilken lokal port din virtuella container kommer finnas på. Där finns även all information du behöver för att konfigurera databasen under det sista momentet i installationen av Drupal. När det gäller inställningar som inte nämns i instruktionen så kan du lämna dem som de är, eller hitta på egna kreativa alternativ.
 
