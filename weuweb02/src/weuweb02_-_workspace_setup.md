@@ -29,7 +29,7 @@ Målet med övningen är att ha en fungerande mjukvaruinfrastruktur där du kan 
 
 Du kommer inte behöva manuellt använda vare sig VirtualBox, Ubuntu eller Docker Desktop i den här övningen. Efter installationen räcker det att du kör CLI-kommandon i PowerShell för att aktivera din docker-compose.yml och köra dina dockercontainers.
 
-I filen docker-compose.yml finns information om vilken lokal port din virtuella container kommer finnas på. Där finns även all information du behöver för att konfigurera databasen under det sista momentet i installationen av Drupal. När det gäller inställningar som inte nämns i instruktionen så kan du lämna dem som de är, eller hitta på egna kreativa alternativ.
+I filen docker-compose.yml finns information om vilken lokal port din virtuella container kommer exponera sin webbserver på. Där finns även all information du behöver för att konfigurera databasen under det sista momentet i installationen av Drupal. När det gäller inställningar som inte nämns i instruktionen så kan du lämna dem som de är, eller hitta på egna kreativa alternativ.
 
 > Tips! Varje gång du startar ett nytt projekt, redigera docker-compose.yml så alla containernamn och portar är unika på din host.
 
