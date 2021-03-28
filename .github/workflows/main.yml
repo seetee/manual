@@ -25,6 +25,12 @@ jobs:
           image_import: ./resources/img
           # Default is true, can set to false to only get PDF files
           build_html: false
+          
+      - name: where are we
+        run: pwd
+      - name: list some key files
+        run: ls -lrt
+
       - uses: actions/upload-artifact@v1
         with:
           name: docs
