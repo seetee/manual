@@ -28,5 +28,5 @@ jobs:
           
       - uses: actions/upload-artifact@v1
         with:
-          name: docs
+          name: weuweb02
           path: weuweb02
