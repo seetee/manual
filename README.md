@@ -4,6 +4,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/seetee/manual)
 ![GitHub release](https://img.shields.io/github/v/release/seetee/manual)
 ![GitHub contributors](https://img.shields.io/github/contributors/seetee/manual)
+![Convert Markdown 2 PDF](https://github.com/seetee/manual/actions/workflows/main.yml/badge.svg)]
 
 
 This is an experiment with the goal of creating a documentation standard for the IT-education at @TCStenungsund. Hopefully it will work with Github Actions and other fun stuff. Perhaps it could be great. Personally I think there should be guides in hot wo do stuff like this. :-)
