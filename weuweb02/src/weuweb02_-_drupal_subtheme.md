@@ -1,5 +1,5 @@
 <header style="float:right;">
-  <img src="../../resources/img/tcstenungsund.png" style="width:5em;" />
+  <img src="https://app.tcstenungsund.se/themes/tcapp/images/tc-s-trans.svg" style="width:5em;" />
 </header>
 
 # Webbutveckling 2: Drupal subtheme
