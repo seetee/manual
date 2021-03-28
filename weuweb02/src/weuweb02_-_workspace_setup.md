@@ -1,5 +1,5 @@
 <header style="float:right;">
-  <img src="../../resources/img/tcstenungsund.png" style="width:5em;" />
+  <img src="resources/img/tcstenungsund.png" style="width:5em;" />
 </header>
 
 # Webbutveckling 2: Workspace setup
@@ -39,7 +39,7 @@ När installationen är färdig, skapa en article och ett block. Publicera din a
 
 <div style="page-break-after: always;">&nbsp;</div>
 
-![Flödesschema över installation av Docker i olika OS](../img/docker_2.0.png)
+![Flödesschema över installation av Docker i olika OS](weuweb02/img/docker_2.0.png)
 
 <div style="page-break-after: always;">&nbsp;</div>
 
