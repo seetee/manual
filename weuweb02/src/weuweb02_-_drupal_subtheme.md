@@ -1,5 +1,5 @@
 <header style="float:right;">
-  <img src="../../resources/img/tcstenungsund.png" style="width:5em;" />
+  <img src="resources/img/tcstenungsund.png" style="width:5em;" />
 </header>
 
 # Webbutveckling 2: Drupal subtheme
