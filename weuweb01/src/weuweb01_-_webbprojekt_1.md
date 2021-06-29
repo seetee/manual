@@ -2,55 +2,101 @@
   <img src="../../resources/img/tcstenungsund.png" style="width:5em;" />
 </header>
 
-# Webbutveckling 1: Min Fula Lilla Sida
+# Webbutveckling 1: Webbprojekt 1
 
-*Det är inte lätt att vara nybörjare.
-Alla webbutvecklare börjar från början, och det första de producerar brukar sällan se bra ut.
-Så varför inte se till att få det ur systemet direkt? På så sätt kan vi sedan gå vidare och skapa snyggare grejer.
-Denna uppgiften går ut på att du skall lära dig grunderna i webbutveckling, och samtidigt göra en riktigt ful liten sida.*
+*Ni har tidigare lärt er hur man bygger en webbplats med hjälp av HTML och CSS. Dessutom vet ni både hur man planerar för och samarbetar kring ett projekt. Tillsammans med kunskaper om ramverk som Bootstrap och andra hjälpmedel som finns på nätet så skall ni nu omsätta denna kunskapen i praktiken.*
 
-![Ett exempel på färdig uppgift](../img/weuweb01_-_min_fula_lilla_sida_0.png)
+![Ett exempel på färdig uppgift](../img/weuweb01_-_webbprojekt_1_0.png)
 
 ---
 
 ## Förutsättningar
 
-Enskild uppgift.
+Gruppuppgift för 3-4 personer.
 
 ## Resurser
-* [Valfri webbläsare](https://www.mozilla.org/sv-SE/firefox/new/)
-* [Notepad++](https://notepad-plus-plus.org/)
-* [7Zip](https://www.7-zip.org/)
 * [HTML Dog](https://htmldog.com/)
-  - [HTML Beginner](https://htmldog.com/guides/html/beginner/) och [CSS Beginner](https://htmldog.com/guides/css/beginner/)
-  - [HTML Intermediate](https://htmldog.com/guides/html/intermediate/) och [CSS Intermediate](https://htmldog.com/guides/css/intermediate/)
-  - [HTML Advanced](https://htmldog.com/guides/html/advanced/) och [CSS Advanced](https://htmldog.com/guides/css/advanced/)
 
-> Tips! Om du kör Windows som OS kan mjukvarorna som nämns ovan installeras via den utmärkta tjänsten [Ninite](https://ninite.com/7zip-firefox-notepadplusplus/). Använder du Linux så finns de tillgängliga i din vanliga pakethanterare.
+
+> Tips! Skapa och länka in tre CSS-dokument; ett för layout, ett för typografi och ett för färgsättning. Så ni har dem separerade från varandra. Det gör det lättare att samarbeta.
 
 ## Uppgiftsbeskrivning
 
-Du skall nu skapa din första webbsida.
+Detta projekt kommer att löpa under hela våren, men är uppdelad i tre större moment, planering (\~4 veckor), konstruktion (\~7 veckor) och verifiering (\~4 veckor). Påbörja inte nästa moment förän ni slutfört och lämnat in föregående moment. Målsättningen med projektet är att ni skall lära er att använda och tillämpa andras kod (både Bootstraps och era gruppkamraters), att identifiera och hantera problem som kan uppstå när man arbetar med mjukvaruutveckling i grupp samt de punkter från Skolverket ni kan läsa citerat nedan.
 
-[HTML Dog](https://htmldog.com/) innehåller tre avsnitt om HTML och tre avsnitt om CSS. Du skall läsa dessa avsnitt, i ordning, och implementera majoriteten av det du lär dig i din Fula Lilla Sida. Testa de exempel som ges, pröva att ändra värden och ordningen på instruktionerna för att bli bekant med och få förståelse för hur språken fungerar.
+> Skolverket centrala innehåll säger att ni i kursen Webbutveckling 1 skall lära er:
+> * Processen för ett webbutvecklingsprojekt med målsättningar, planering, specifikation av struktur och design, kodning, optimering, testning, dokumentation och uppföljning.
+> * Applikationer som fungerar oberoende av val av användaragent, operativsystem eller hårdvaruplattform och hur tillgänglighet uppnås även för användare med funktionsnedsättning.
+> * Kvalitetssäkring av applikationens funktion och validering av kodens kvalitet."
 
-![Använd den här filstrukturen](../img/weuweb01_-_min_fula_lilla_sida_1.png)
 
-Börja med att skapa en ny [katalog](https://sv.wikipedia.org/wiki/Katalog_(datorteknik)) på valfri plats i [filsystemet](https://sv.wikipedia.org/wiki/Filsystem). Skapa i denna en katalog som heter __bilder__, en fil som heter __index.html__ och en fil som heter __main.css__. Lägg sedan bilder du använder under projektets gång i underkatalogen bilder. Se Bild 2 för ett exempel av hur det kan se ut.
 
-Den resulterande sidan får med fördel vara riktigt ful.
+### Planering
+
+
+* Definiera, beskriv och förklara webbplatsens buisness objectives
+* Skapa en moodboard
+* Skapa en sitemap
+* Definiera Call To Actions för varje undersida
+* Bestäm ett färgschema för webbplatsen
+* Undersök Bootstrap ...
+* Diskutera hur logotypen skulle kunna se ut
+* Skapa en genomtänkt katalogstruktur och skapa alla filer ni behöver
+* Fyll alla filer med Lorem Ipsum så ni har något att arbeta med
+* Skall ni ha sociala medier på sidan? Som Twitter/Facebook/Identi.ca/Flickr/... ... ... ?
+* Finns det andra tjänster (widgets) som skulle göra sidan bättre?
+* Skapa relevanta wireframes (en för förstasidan, en för varje typ av undersida, varianter för plattor och mobiler)
+
+
+### Konstruktion
+
+* Skapa en logotype i Inkscape
+* Ersätt exempeldata på index.html med skarpt innehåll
+* Layout
+* Widgets
+* Ersätt exempeldata med skarpt innehåll på övriga undersidor
+* Typografi
+* Bakgrunder
+* Färgschema
+* Lägg till länkad logotyp till TC stenungsund
+* Optimera rastergrafik
+* Se till att ni har minst en tydligt CTA på varje sida
+
+###### Om ni har FTP-access
+
+* Installera Google Analytics
+* Installera Disqus eller liknande
+
+###### Överkurs
+
+* Lägg till animation och transition
+* Lägg till JavaScript för att förbättra användarupplevelsen
+* Implementera darkmode
+
+### Verifiering
+
+Genomför alla tester nedan, fundera över varför resultaten ser ut som de gör och uppdatera er Style Guide samt er kod med lämpliga förbättringar. Med en sökmotors hjälp finner ni snabbt många 100 verktyg på nätet som hjälper er med nedanstående tester, en del i uppgiften är att hitta några som förefaller mer trovärdiga och detaljerade än andra och använda dessa.
+
+* All kod skall gå igenom W3Cs validering
+* Testa hastighet
+* Testa kontrast
+* Genomför användartester
 
 ## Förväntat resultat
 
-I slutet av den här uppgiften förväntas du ha skapat en ful liten sida bestående av minst ett html-dokument och minst ett css-dokument. Sidan skall innehålla alla de moment som återfinns i HTML- och CSS-delarna på HTML Dog.
+En färdig sida som passerar W3C's Unicorn-validering. Genomtänkt namngivna dokument, kataloger och en bra struktur. Allt innehåll skall vara på plats. Designen skall fungera i alla webbläsare samt mobila enheter.
+
+Ni kommer även få presentera sidan för era klassamrater, samt skriva en personlig utvärdering av hur projektet gått.
 
 ### Vilka filer?
 
-Skapa ett 7Zip-arkiv av din arbetskatalog.
+* Ett 7Zip-arkiv av er kompletta sidas fulla katalogstruktur.
+* En Style Guide i PDF-format.
+* En logotype i SVG-format.
 
 ### Var skall de lämnas in?
 
-På vår lärplattform [It's Learning](https://stenungsund.itslearning.com/) finns ett kursrum vid namn *"18TEI/191WEUWEB01 Webbutveckling 1"*, under *Innehåll* / *Inlämningar* hittar du en inlämningskatalog med samma namn som den här uppgiften.
+På vår lärplattform [It's Learning](https://stenungsund.itslearning.com/) finns ett kursrum med samma namn som den här kursen, under *Innehåll* / *Inlämningar* hittar du två inlämningskataloger, en heter "Webbprojekt 1: Style Guide" och där laddar du upp PDF:en och SVG:n, den andra heter "Webbprojekt 1: Sidan" och där laddar du upp din 7Zip.
 
 ---
 
