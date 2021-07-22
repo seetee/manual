@@ -1,6 +1,6 @@
 # .github/workflows/convert-to-pdf.yml
 
-name: Docs to PDF
+name: Convert MD to PDF
 # This workflow is triggered on pushes to the repository.
 on:
   push:
