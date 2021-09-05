@@ -50,7 +50,7 @@ Skapa ett 7Zip-arkiv av din arbetskatalog.
 
 ### Var skall de lämnas in?
 
-På vår lärplattform [It's Learning](https://stenungsund.itslearning.com/) finns ett kursrum vid namn *"18TEI/191WEUWEB01 Webbutveckling 1"*, under *Innehåll* / *Inlämningar* hittar du en inlämningskatalog med samma namn som den här uppgiften.
+På vår lärplattform [It's Learning](https://stenungsund.itslearning.com/) finns ett kursrum vid namn *"Webbutveckling 1"*, under *Innehåll* / *Inlämningar* hittar du en inlämningskatalog med samma namn som den här uppgiften.
 
 ---
 
