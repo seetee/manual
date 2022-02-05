@@ -4,7 +4,7 @@
 
 # Webbutveckling 2: Stora projektet
 
-*Nu är det dags att tillämpa kunskaper från både Webbutveckling 1 och 2. I en stor grupp skall ni samarbete och producera dokumentation, ett Drupal subtheme baserat på Bootstrap och en färdig webbsida.*
+*Nu är det dags att tillämpa kunskaper från både Webbutveckling 1 och 2. I en stor grupp skall ni samarbeta och producera dokumentation, ett Drupal subtheme baserat på Bootstrap och en färdig webbsida.*
 
 ## Förutsättningar
 
@@ -21,7 +21,9 @@ Gruppuppgift.
 
 ## Uppgiftsbeskrivning
 
-Trello och git. 
+Trello och git.
+Roller.
+Rapport varannan vecka. 
 
 #### Överkurs
 
@@ -31,13 +33,13 @@ Siktar du på högre betyg, skapa en egen template-fil för förstasidan av din 
 
 ## Förväntat resultat
 
-Varannan vecka rapportera. Vad har du gjort? Vad kommer du göra? Vilka hinder ser du? 
+Varannan vecka rapportera. Vad har du gjort? Vad kommer du göra? Vilka hinder ser du?
 
-Trello och git. 
+Trello och git.
 
-Subtheme. 
+Subtheme.
 
-Komplett sida. 
+Komplett sida.
 
 ### Vilka filer?
 
