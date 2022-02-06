@@ -22,9 +22,21 @@ Gruppuppgift.
 
 ##### Ansvarsområden
 
-I denna uppgift skall alla delta i att skriva kod, bidra med dokumentation och idéer. Men ni har också ett specifikt ansvarsområde som ni fått er tilldelade. Det innebär inte att ni endast skall göra det som ingår i ansvarsområdet, eller att endst ni skall göra uppgifter som faller under ansvarsområdet. Vad det innebär är att du bär ansvaret. Det är du som kommer få skulden om uppgiften inte utförs.
+I denna uppgift skall alla delta i att skriva kod, bidra med dokumentation och idéer. Men ni har också ett specifikt ansvarsområde som ni fått er tilldelade. Det innebär inte att ni endast skall göra det som ingår i ansvarsområdet, eller att endst ni skall göra uppgifter som faller under ansvarsområdet. Vad det innebär är att du bär ansvaret. Det är du som kommer få skulden om uppgiften inte utförs (oasett om du är på lektionen eller inte).
 
-Ansvarsområdena är Arbetsledare, Gitmaster, Dokumentation, Data, Designsystem, Infrastruktur.
+Ansvarsområdena är _Arbetsledare_, _Gitmaster_, _Dokumentation_, _Data_, _Designsystem_, _Infrastruktur_.
+
+Era _Arbetsledare_ skall se till att ingenting hindrar arbetet. De skall ta ledningen under gruppdiskussioner och se till att det alltid finns tillgängliga arbetsuppgifter som kort på Trello.
+
+De som agerar _Gitmaster_ svarar på frågor och hjälper resten av gruppen med git-relaterade problem. De ansvarar också för att Pull Requests och git-konflikter löses.
+
+Eftersom dokumentationen och rapportering av ert arbete är väldigt viktigt, bör alla vara inställda på att dokumentera ert arbete. Att detta arbete samordnas och sker kontinuerligt är en del av ansvarsområdet _Dokumentation_.
+
+De gamla webbplatserna innehåller mycket information. Denna informationen är ofta dåligt sorterad och svår för besökare att hitta. Det krävs att de som är ansvariga för _Data_ sätter sig in i hur man kan strukturera upp informationen och sortera den på ett logiskt och lättförståeligt sätt, både för kommande besökare samt användare av er webbplats. Den största uppgiften är dock att migrera data från den gamla webbplatsen till den nya.
+
+Ett _Designsystem_ kan börja livet som ett pattern library, men skall växa bortom det med både standarder för utseende och det "tänk" man skall ha när man bygger en webbplats. "Your product is more than just a pile of reusable UI elements. It has structure and meaning. It’s not a generic web page, it’s the embodiment of a system of concepts." skrev Emmet Connoly, director of product design på Intercom. Vidare skrev Diana Mounter, design systems manager på GitHub, "Design systems are always evolving, and the way you share and encourage adoption of new iterations will evolve along the way as well."
+
+Det förekommer inte direkt något backend-jobb i detta projekt, men det finns en del _Infrastruktur_ som behöver underhållas. Till exempel installation och konfiguration av moduler samt både testning och sanering av content types och exempeldata i Drupal.
 
 ##### Regelbundna uppgifter
 
