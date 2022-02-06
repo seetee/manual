@@ -4,42 +4,68 @@
 
 # Webbutveckling 2: Stora projektet
 
-*Nu är det dags att tillämpa kunskaper från både Webbutveckling 1 och 2. I en stor grupp skall ni samarbeta och producera dokumentation, ett Drupal subtheme baserat på Bootstrap och en färdig webbsida.*
+*Nu är det dags att tillämpa kunskaper från både Webbutveckling 1 och 2. I en stor grupp skall ni samarbeta och omvandla en gammal och "mindre snygg" webbplats till en modern och lättnavigerad produkt Det skall finnas tydlig och tilltalande dokumentation, ett Drupal subtheme baserat på Bootstrap och såklart en färdig webbplats.*
 
 ## Förutsättningar
 
 Gruppuppgift.
 
 ### Resurser
-* [Drupal 8 Beginner](https://www.youtube.com/playlist?list=PLpVC00PAQQxHzlDeQvCNDKkyKRV1G3_vT)
-* ["How to Create a Sub Theme in Drupal 8 or 9"](https://youtu.be/hPXUn_D2-lE)
-* ["How to Convert an HTML Template to a Drupal 8 Theme"](https://youtu.be/xdifbN3y5hU)
-* [Drupal 8 Bootstrap 3 - Sub-Theming - Using the Starterkit](https://drupal-bootstrap.org/api/bootstrap/docs%21Sub-Theming.md/group/sub_theming/8.x-3.x)
-* [Drupal 8/9 Creating a custom Barrio (Bootstrap 4) sub-theme manually](https://www.drupal.org/docs/8/themes/barrio-bootstrap-4-drupal-89-theme/bootstrap-barrio-installation/creating-a-custom#s-create-manually)
 
-> Tips! Stabilt just nu (2021 Q1) är Drupal 8 och Bootstrap 4. Men nästa version av bägge projekten är mycket nära produktionsfärdiga. Undersök dem gärna själv!
+* [Docker](https://www.docker.com/) tillsammans med filen [docker-compose.yml v.2.0](https://github.com/seetee/docker/tree/version2.0/drupal)
+* [Trello](https://trello.com/)
+* [GitHub](https://github.com/)
+* [HTTrack](https://www.httrack.com/)
+* En editor som [Atom](https://atom.io/), [VSCodium](https://vscodium.com/) eller [Notepad++](https://notepad-plus-plus.org/)
 
 ## Uppgiftsbeskrivning
 
-Trello och git.
-Roller.
-Rapport varannan vecka. 
+##### Ansvarsområden
 
-#### Överkurs
+I denna uppgift skall alla delta i att skriva kod, bidra med dokumentation och idéer. Men ni har också ett specifikt ansvarsområde som ni fått er tilldelade. Det innebär inte att ni endast skall göra det som ingår i ansvarsområdet, eller att endst ni skall göra uppgifter som faller under ansvarsområdet. Vad det innebär är att du bär ansvaret. Det är du som kommer få skulden om uppgiften inte utförs.
 
-Siktar du på högre betyg, skapa en egen template-fil för förstasidan av din site. (Detta kan innebära att du kommer i kontakt med både [YAML](https://en.wikipedia.org/wiki/YAML) och [Twig](https://en.wikipedia.org/wiki/Twig_(template_engine))).
+Ansvarsområdena är Arbetsledare, Gitmaster, Dokumentation, Data, Designsystem, Infrastruktur.
+
+##### Regelbundna uppgifter
+
+Börja varje lektion med en 5-10 minuter lång snabbgenomgång av hur arbetsläget ser ut. Låt var och en svara kort (c:a 1 mening) på frågorna "Vad gjorde jag förra gången?", "Vad skall jag göra idag?" och "Vilka problem ser jag?".
+
+Varannan vecka skickar Dokumentationsansvariga in en rapport på It's där de kort redogör för vilka uppgifter som slutförts under de senaste fjorton dagarna, samt om det finns några problem som hindrar att gruppens arbete går vidare.
+
+##### Större moment
+
+Uppdatera (eventuellt gör om) logotypen.
+
+Bestäm färgschema, typografi och liknande.
+
+Skapa ett design system.
+
+Gör en sitemap. Basera denna på den gamla sidans innehåll, fast ta hänsyn till nya content types och taxonomier.
+
+> Tips! Ni behöver inte en "Hem"-länk eller en "Om oss"-sida. Denna informationen kan med fördel visas för besökaren genom att de först hamnar på en nyhetssida och att webbplatsen har en informativ footer.
+
+Ta fram en Bootstrap 5 Theme-fil.
+
+Bygg ett Drupal Bootstrap 5 (Barrio) subtheme.
+
+Använd [YAML](https://en.wikipedia.org/wiki/YAML) och [Twig](https://en.wikipedia.org/wiki/Twig_(template_engine) för att skapa väl integrerade template-filer till webbplatsen. Förstasidan skall ha en egen template-fil, men det är upp till er vilka övriga sidor som behöver det.
+
+Konfigurera Drupal med korrekta content types, taxonomier och liknande.
+
+Migrera data från den gamla webbplatsen till er nya.
 
 <div style="page-break-after: always;">&nbsp;</div>
 
 ## Förväntat resultat
 
-Varannan vecka rapportera. Vad har du gjort? Vad kommer du göra? Vilka hinder ser du?
+En layoutmässigt och grafiskt tilltalande dokumentation som beskriver färger, typsnitt, logotyper och andra grundkomponenter ni använder till sidan.
 
-Trello och git.
-
-Subtheme.
+En .7z-fil som innehåller ett installeringsbart subtheme.
 
 Komplett sida.
+
+Alla skall ha bidragit till ert repocitory med vettiga commits, samt hanterat minst ett innehållsrikt kort på Trello i veckan.
+
 
 ### Vilka filer?
 
