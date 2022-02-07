@@ -61,7 +61,7 @@ Ta fram en Bootstrap 5-temafil.
 
 Bygg ett subtheme till Bootstrap 5 Barrio för Drupal 9.
 
-Använd [YAML](https://en.wikipedia.org/wiki/YAML) och [Twig](https://en.wikipedia.org/wiki/Twig_(template_engine) för att skapa väl integrerade template-filer till webbplatsen. Förstasidan skall ha en egen template-fil, men det är upp till er vilka övriga sidor som behöver det.
+Använd [YAML](https://en.wikipedia.org/wiki/YAML) och [Twig](https://en.wikipedia.org/wiki/Twig_(template_engine)) för att skapa väl integrerade template-filer till webbplatsen. Förstasidan skall ha en egen template-fil, men det är upp till er vilka övriga sidor som behöver det.
 
 Konfigurera Drupal med korrekta content types, taxonomier och liknande.
 
