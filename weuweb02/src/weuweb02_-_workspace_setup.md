@@ -15,7 +15,6 @@ I denna uppgift krävs det att du kan läsa, förstå och följa officiella inst
 Du förutsätts kunna navigera och köra kommandon på kommandoraden, installera mjukvara i Windowsmiljö och ladda ned filer från webben.
 
 ### Resurser
-* [VirtualBox](https://www.virtualbox.org/)
 * [WSL 2 (Ubuntu 20.04 LTS)](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 * [Docker Desktop for Windows](https://docs.docker.com/docker-for-windows/install-windows-home/)
 * [Docker Engine for Linux](https://docs.docker.com/engine/install/ubuntu/) och [Docker Compose](https://docs.docker.com/compose/install/)
