@@ -18,7 +18,7 @@ Gruppuppgift för 3-4 personer.
 * [HTML Dog](https://htmldog.com/)
 
 
-> Tips! Skapa och länka in tre CSS-dokument; ett för layout, ett för typografi och ett för färgsättning. Så ni har dem separerade från varandra. Det gör det lättare att samarbeta.
+> Tips! Skapa och länka in tre CSS-dokument; ett för layout, ett för typografi och ett för färgsättning. Så ni har dem separerade från varandra. Detta gör det lättare att samarbeta.
 
 ## Uppgiftsbeskrivning
 
@@ -45,7 +45,7 @@ Detta projekt kommer att löpa under hela våren, men är uppdelad i tre större
 * Fyll alla filer med Lorem Ipsum så ni har något att arbeta med
 * Skall ni ha sociala medier på sidan? Som Twitter/Facebook/Identi.ca/Flickr/... ... ... ?
 * Finns det andra tjänster (widgets) som skulle göra sidan bättre?
-* Skapa relevanta wireframes (en för förstasidan, en för varje typ av undersida, varianter för plattor och mobiler)
+* Skapa relevanta wireframes (en för förstasidan, en för varje typ av undersida, samt varianter för plattor och mobiler)
 
 
 ### Konstruktion

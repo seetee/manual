@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "273061e2bbd9fd00",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ec9e18f18cfede1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "weuweb01_-_webbprojekt_1.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "be9b4d529bb0c201",
+    "type": "split",
+    "children": [
+      {
+        "id": "1bd93b2470a1d15a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9189116dc015ca47",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "836567743fe7f7f5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9889f31c67347a90",
+    "type": "split",
+    "children": [
+      {
+        "id": "5885ec99e880ed08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72f9502eda732316",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "weuweb01_-_webbprojekt_1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "4ec9e18f18cfede1",
+  "lastOpenFiles": [
+    "weuweb01_-_webbprojekt_1.md"
+  ]
+}
