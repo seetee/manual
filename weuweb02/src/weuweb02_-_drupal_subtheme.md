@@ -23,7 +23,7 @@ Enskild uppgift.
 
 ##### Planering
 
-Bestäm ett syfte för sidan (business objective), samt några Call to Actions. Definiera färgschema, typsnitt samt bildspråk. Leta upp bilder och ikoner du har laglig rätt att använda i projektet. Skapa wireframes, moodboards och liknande om det behövs. Inkludera bakgrundsbilder/mönster, subtila strukturer, typsnitt, färger och allt annat du lärt dig när det gäller att bygga en webbplats.
+Bestäm ett syfte för sidan (business objective), samt några Call to Actions. Definiera färgschema, typsnitt samt bildspråk. Leta upp bilder och ikoner du har laglig rätt att använda i projektet. Skapa wireframes, moodboards och liknande om det behövs.
 
 ##### Infrastruktur
 
@@ -33,7 +33,7 @@ Installera temat [Barrio](https://www.drupal.org/project/bootstrap_barrio)  samt
 
 ##### Skapa ditt sub-theme
 
-Följ de officiella instruktionerna och skapa ett eget sub-theme till Barrio.
+Under **Resurser** ovan så finner du de officiella instruktionerna för hur du skapar ett eget sub-theme till Barrio. Följ dem och inkludera bakgrundsbilder/mönster, subtila strukturer, typsnitt, färger och allt annat du lärt dig när det gäller att bygga en webbplats.
 
 För att skriva CSS, skapa dokumentet style.css i katalogen CSS i din sub-theme-katalog. Högerklicka sedan i webbläsaren på det element du vill ändra och välj "Inspect Element". Konstruera en selektor av klasser och element, till exempel ".region-secondary-menu h2" för att ändra underrubriken över sekundärmenyn. Lägg till selektorn och skriv dina CSS-regler ditt CSS-dokument.
 
