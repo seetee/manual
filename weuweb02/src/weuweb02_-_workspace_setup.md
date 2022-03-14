@@ -24,9 +24,9 @@ Du förutsätts kunna navigera och köra kommandon på kommandoraden, installera
 
 ## Uppgiftsbeskrivning
 
-Målet med övningen är att ha en fungerande mjukvaruinfrastruktur där du kan sätta upp en utvecklingsmiljö med hjälp av docker-compose. För att kunna använda docker-compose behöver du tre mjukvaror: 1 hypervizor att skapa containrar i, en linux-miljö (riktig eller virtualiserad) samt Docker. Efter det skall du ladda hem docker-compose.yml-filen som innehåller "receptet" för hur din utvecklingsmiljö skall se ut. Slutför sedan installationen av Drupal i din webbläsare utifrån uppgifterna i docker-compose.yml-filen.
+Målet med övningen är att ha en fungerande mjukvaruinfrastruktur där du kan sätta upp en utvecklingsmiljö med hjälp av docker-compose. För att kunna använda docker-compose behöver du två mjukvaror: en linux-miljö (riktig eller virtualiserad) samt Docker. Efter det skall du ladda hem docker-compose.yml-filen som innehåller "receptet" för hur din utvecklingsmiljö skall se ut. Slutför sedan installationen av Drupal i din webbläsare utifrån uppgifterna i docker-compose.yml-filen.
 
-Du kommer inte behöva manuellt använda vare sig VirtualBox, Ubuntu eller Docker Desktop i den här övningen. Efter installationen räcker det att du kör CLI-kommandon i PowerShell för att aktivera din docker-compose.yml och köra dina dockercontainers.
+Du kommer inte behöva manuellt använda vare sig Ubuntu eller Docker Desktop i den här övningen. Efter installationen räcker det att du kör några få CLI-kommandon i PowerShell för att aktivera din docker-compose.yml och köra dina dockercontainers.
 
 I filen docker-compose.yml finns information om vilken lokal port din virtuella container kommer exponera sin webbserver på. Där finns även all information du behöver för att konfigurera databasen under det sista momentet i installationen av Drupal. När det gäller inställningar som inte nämns i instruktionen så kan du lämna dem som de är, eller hitta på egna kreativa alternativ.
 
@@ -38,7 +38,19 @@ När installationen är färdig, skapa en article och ett block. Publicera din a
 
 <div style="page-break-after: always;">&nbsp;</div>
 
-![Flödesschema över installation av Docker i olika OS](img/docker_2.0.png)
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#bddfff', 'edgeLabelBackground':'#d39100', 'lineColor': '#29568f'}}}%%
+flowchart TD
+    start([Hur du startar Drupal <br />i en container med Docker]) ==> alla1
+    alla1 ==>|Ja, Linux| linux1 
+    linux1("Installera <br />#quot;Docker Engine <br />for Linux#quot; och <br />#quot;Docker Compose#quot;") ==> alla2
+    alla1{Kör du ett <br />vettigt OS?} -->|Nej, Windows| windows1
+    windows1[Aktivera WSL 2 och <br />installera senaste <br />Ubuntu LTS] --> windows2
+    windows2["Installera <br />#quot;Docker Desktop <br />for Windows#quot; <br />(stable)"] --> alla2
+    alla2(Tanka hem filen <br />docker-compose.yml <br />och lägg i en <br />projektkatalog) ==> alla3 
+    alla3("Kör <br />docker-compose up <br />och tryck [Ctrl]+[c] när <br />processen är klar") ==> slut
+    slut((Du kan nu köra <br />docker-compose start <br />och <br />docker-compose stop<br /> föŕ att kontrollera <br />din container.))
+```
 
 <div style="page-break-after: always;">&nbsp;</div>
 
