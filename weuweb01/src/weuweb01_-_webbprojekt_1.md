@@ -29,13 +29,11 @@ Detta projekt kommer att löpa under hela våren, men är uppdelad i tre större
 > * Applikationer som fungerar oberoende av val av användaragent, operativsystem eller hårdvaruplattform och hur tillgänglighet uppnås även för användare med funktionsnedsättning.
 > * Kvalitetssäkring av applikationens funktion och validering av kodens kvalitet."
 
-
-
 ### Planering
-
 
 * Definiera, beskriv och förklara webbplatsens buisness objectives
 * Skapa en moodboard
+* Skapa wireframes för förstasida och undersidor
 * Skapa en sitemap
 * Definiera Call To Actions för varje undersida
 * Bestäm ett färgschema för webbplatsen
@@ -46,7 +44,6 @@ Detta projekt kommer att löpa under hela våren, men är uppdelad i tre större
 * Skall ni ha sociala medier på sidan? Som Twitter/Facebook/Identi.ca/Flickr/... ... ... ?
 * Finns det andra tjänster (widgets) som skulle göra sidan bättre?
 * Skapa relevanta wireframes (en för förstasidan, en för varje typ av undersida, samt varianter för plattor och mobiler)
-
 
 ### Konstruktion
 
