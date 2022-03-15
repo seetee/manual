@@ -54,13 +54,13 @@ Detta projekt kommer att löpa under hela våren, men är uppdelad i tre större
 * Typografi
 * Bakgrunder
 * Färgschema
-* Lägg till länkad logotyp till TC stenungsund
+* Lägg till länkad logotyp till TC Stenungsund
 * Optimera rastergrafik
 * Se till att ni har minst en tydligt CTA på varje sida
 
 ###### Om ni har FTP-access
 
-* Installera Google Analytics
+* Installera ett besökaranalysverktyg
 * Installera Disqus eller liknande
 
 ###### Överkurs
