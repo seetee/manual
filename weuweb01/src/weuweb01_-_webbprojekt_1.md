@@ -33,7 +33,6 @@ Detta projekt kommer att löpa under hela våren, men är uppdelad i tre större
 
 * Definiera, beskriv och förklara webbplatsens buisness objectives
 * Skapa en moodboard
-* Skapa wireframes för förstasida och undersidor
 * Skapa en sitemap
 * Definiera Call To Actions för varje undersida
 * Bestäm ett färgschema för webbplatsen
