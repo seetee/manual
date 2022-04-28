@@ -16,7 +16,7 @@ Gruppuppgift för 3-4 personer.
 
 ## Resurser
 * [HTML Dog](https://htmldog.com/)
-
+* [Bootstrap](https://getbootstrap.com/)
 
 > Tips! Skapa och länka in tre CSS-dokument; ett för layout, ett för typografi och ett för färgsättning. Så ni har dem separerade från varandra. Detta gör det lättare att samarbeta.
 
@@ -36,7 +36,7 @@ Detta projekt kommer att löpa under hela våren, men är uppdelad i tre större
 * Skapa en sitemap
 * Definiera Call To Actions för varje undersida
 * Bestäm ett färgschema för webbplatsen
-* Undersök Bootstrap ...
+* Undersök vad Bootstrap kräver
 * Diskutera hur logotypen skulle kunna se ut
 * Skapa en genomtänkt katalogstruktur och skapa alla filer ni behöver
 * Fyll alla filer med Lorem Ipsum så ni har något att arbeta med
@@ -57,6 +57,8 @@ Detta projekt kommer att löpa under hela våren, men är uppdelad i tre större
 * Lägg till länkad logotyp till TC Stenungsund
 * Optimera rastergrafik
 * Se till att ni har minst en tydligt CTA på varje sida
+
+> Tips! Bootstrap har ett pattern library där ni kan finna många färdiga komponenter som går att anpassa och använda på er webbplats.
 
 ###### Om ni har FTP-access
 
