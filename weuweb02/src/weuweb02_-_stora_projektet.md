@@ -79,7 +79,7 @@ En layoutmässigt och grafiskt tilltalande dokumentation som beskriver färger, 
 
 Ett installeringsbart subtheme.
 
-Alla skall ha bidragit till ert repocitory med vettiga commits, samt hanterat minst ett innehållsrikt kort på Trello i veckan.
+Alla skall ha bidragit till ert repository med vettiga commits, samt hanterat minst ett innehållsrikt kort på Trello i veckan.
 
 ### Vilka filer?
 
